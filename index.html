@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cards de Estudo</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Meus Cards de Estudo</h1>
+        <p id="advice">Carregando conselho...</p>
+    </header>
+
+    <main>
+        <form id="card-form">
+            <input type="text" id="topic" placeholder="Digite o tópico" required>
+            <textarea id="description" placeholder="Digite a descrição" required></textarea>
+            <button type="submit">Adicionar Card</button>
+        </form>
+
+        <section id="cards-container"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
